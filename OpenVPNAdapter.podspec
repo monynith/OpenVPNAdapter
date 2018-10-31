@@ -26,13 +26,12 @@ Pod::Spec.new do |s|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.ios.deployment_target = "9.0"
-  s.osx.deployment_target = "10.11"
+  s.ios.deployment_target = "8.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source = { :git => "https://github.com/ss-abramchuk/OpenVPNAdapter.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/monynith/OpenVPNAdapter.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
